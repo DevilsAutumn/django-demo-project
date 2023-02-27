@@ -7,6 +7,7 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
+        # ("cars", "0002_alter_tires_table"),
         ("tires", "0001_initial"),
     ]
 
